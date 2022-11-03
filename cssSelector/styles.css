@@ -3,7 +3,17 @@
     background-color: wheat;
 }
 
-body{
+
+
+.post a{
+    color: #d90429;
+}
+
+footer a{
+    color: #4361ee;
+}
+
+body {
     background-color: aliceblue;
 }
 
@@ -13,6 +23,17 @@ button {
     background-color: antiquewhite;
 }
 
+.tag {
+    color: #0b090a;
+    background-color: #73ba9b;
+    font-size: 20px;
+}
+
+#signup,
+#login {
+    background-color: #d4a373;
+    color: #283618;
+}
 
 h1,
 h2 {
