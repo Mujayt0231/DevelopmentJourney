@@ -5,11 +5,11 @@
 
 
 
-.post a{
+.post a {
     color: #d90429;
 }
 
-footer a{
+footer a {
     color: #4361ee;
 }
 
@@ -39,3 +39,12 @@ h1,
 h2 {
     color: brown;
 }
+
+footer > a {
+    color: #fb8500;
+}
+
+input[id=password]{
+    color: red;
+}
+
