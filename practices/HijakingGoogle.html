@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijaking google</title>
+</head>
+
+<body>
+
+    <h1>google</h1>
+    <p>Simple version</p>
+    <form action="https://www.google.com/search">
+        <label for="text">Input what do you want to search</label>
+        <input type="text" placeholder="input text" id="text" name="q">
+        <button type="submit">Button</button>
+    </form>
+
+    <h1>Youtube</h1>
+    <form action="https://www.youtube.com/results">
+        <label for="searchbox">Youtube search</label>
+        <input type="text" id="searchbox" placeholder="input the youtube video name" name="search_query">
+        <button>Button</button>
+    </form>
+
+    <h1>More Inputs!</h1>
+
+    <form action="/brids">
+        <label for="checkbox">select one checkbox</label>
+        <input type="checkbox" id="checkbox" name="agree_tos">
+
+        <hr>
+        <hr>
+
+        <P>
+            <label for="X">X:</label>
+            <input type="radio" name="size" id="X" value="x">
+            <label for="S">S:</label>
+            <input type="radio" name="size" id="S" value="s">
+            <label for="L">L:</label>
+            <input type="radio" name="size" id="L" value="l">
+        </P>
+
+        <p>
+            <label for="meal">Meal Option</label>
+            <select name="meal" id="meal">
+                <option value="Fish">Fish</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Shrimp">Shrimp</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="cheese">Cheese level</label>
+            <input type="range" name="cheese" id="cheese" min="1" max="10">
+
+
+        </p>
+        <button>submit</button>
+    </form>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
