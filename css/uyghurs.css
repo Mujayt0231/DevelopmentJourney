@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+    letter-spacing: 9px;
+    font-size: xx-large;
+    font-family: Futura; 
+    text-decoration: lightblue overline;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 1.02;
+}

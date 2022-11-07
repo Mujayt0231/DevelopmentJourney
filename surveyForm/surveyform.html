@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form practice</title>
+</head>
+
+<body>
+
+    <form action="/someLink">
+
+        <h1>Employee Interests Survey form</h1>
+
+        <div>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="your name">
+        </div>
+
+        <p></p>
+
+        <p>
+            <label for="department">Enter your department:</label>
+            <input type="text" id="department" placeholder="department name">
+        </p>
+
+        <div>
+            <label for="textarea">Tell us a little about yourself:</label>
+            <textarea name="text area" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+
+        <p>
+            <label for="yer" for="no"> Do you exercise at home?</label>
+            <input type="radio" name="option" id="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="option" id="no">
+            <label for="no">No</label>
+        </p>
+
+        <p>How do you like to read about your favorite topics?</p>
+
+        <label for="books">Books</label>
+        <input type="checkbox" id="books" value="books">
+
+
+        <label for="online resources">Online resources</label>
+        <input type="checkbox" id="online resources" value="online resources">
+
+        <label for="phone apps">Phone apps</label>
+        <input type="checkbox" id="phone apps" value="phone apps">
+
+        <label for="magazines">Magazines</label>
+        <input type="checkbox" id="magazines" value="magazines">
+
+        <p>
+            <label for="selection">What genre of movies do you like?</label>
+            <select name="selection" id="selection">
+                <option value="comedy">comedy</option>
+                <option value="">romance</option>
+                <option value="">thriller</option>
+                <option value="">biopic</option>
+            </select>
+        </p>
+
+        <button>Submit form</button>
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>

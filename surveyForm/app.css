@@ -1,0 +1,32 @@
+
+article h2{
+    color: #787368;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price{
+    color: #619C78;
+}
+
+
+p{
+    color: #787368;
+}
+
+a{
+    text-decoration: none;
+    color: #476AD2;
+}
+
+h3{
+    color: #787368;
+}
+
+li{
+    color: #787368;
+}
+
+button:active{
+    background-color: #787368;
+    border: 3px;
+}
