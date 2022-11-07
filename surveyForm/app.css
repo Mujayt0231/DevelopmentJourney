@@ -26,7 +26,7 @@ li{
     color: #787368;
 }
 
-button:active{
+button:hover{
     background-color: #787368;
     border: 3px;
 }
