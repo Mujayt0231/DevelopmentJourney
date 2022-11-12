@@ -1,0 +1,56 @@
+div {
+    width: 200px;
+    height: 400px;
+    background-color: antiquewhite;
+
+}
+
+button {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-color: antiquewhite;
+}
+
+:active button {
+    background-color: burlywood;
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+}
+
+
+#one {
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+    border-color: burlywood;
+    border-width: 3px;
+    border-style: inset;
+    border-radius: 30px;
+
+}
+
+#two {
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-color: burlywood;
+    border-width: 3px;
+    border-style: outset;
+}
+
+#three {
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-color: burlywood;
+    border-width: 3px;
+    border-style: ridge;
+}
