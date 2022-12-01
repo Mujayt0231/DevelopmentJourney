@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#container {
+
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#container div {
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-color: antiquewhite;
+    transition: 0.5s;
+    /* border: 10% antiquewhite; */
+}
+
+#container div:hover {
+    border-radius: 20%;
+}
+
+div#item1 {
+    background-color: black;
+}
+
+div#item2 {
+    background-color: orange;
+}
+
+div#item3 {
+    background-color: red;
+}
+
+div#item4 {
+    background-color: palegreen;
+}
+
+div#item5 {
+    background-color: darkgoldenrod;
+}
